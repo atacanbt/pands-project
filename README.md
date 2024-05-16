@@ -26,3 +26,7 @@ by Atacan Buyuktalas
 ### About the dataset:
 - https://en.wikipedia.org/wiki/Iris_flower_data_set
 - https://eminebozkus.medium.com/exploring-the-iris-flower-dataset-4e000bcc266c
+
+### Summary of each variable
+- [is_numeric_dtype](https://pandas.pydata.org/docs/reference/api/pandas.api.types.is_numeric_dtype.html)
+- [to_string](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_string.html#pandas.DataFrame.to_string)
