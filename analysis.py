@@ -25,9 +25,22 @@ for column in data.columns[:-1]: # the last column is not numeric so it is exclu
         variable_summary.append(summary.to_string())
         variable_summary.append("\n")
 
+# TASK 2: Creating histograms for each variable
+        plt.figure(figsize=(10, 6))
+        sns.histplot(data[column], kde=True) # creating a histogram with a kernel density estimate
+        plt.title(f"Distribution of {column}") 
+        plt.xlabel(column)
+        plt.ylabel("Frequency")
+        plt.savefig(f"{column}_histogram.png") # saving the histogram as png files 
+        plt.close() # closing the plot to avoid overlapping
+
+
 # Writing the summary of each variable to a text file
 with open('summary.txt', 'w') as f:
     for line in variable_summary:
         f.write(line + '\n')
 
-# TASK 2: Histograms
+print("Summary of each variable is written to 'summary.txt' file. Histograms are saved as png files.")
+
+# TASK 3: Scatter plot of each pair of variables
+sns.pairplot(data, hue="speciess") # creating a pairplot with different colors for each species

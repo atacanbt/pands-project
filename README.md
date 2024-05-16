@@ -30,3 +30,4 @@ by Atacan Buyuktalas
 ### Summary of each variable
 - [is_numeric_dtype](https://pandas.pydata.org/docs/reference/api/pandas.api.types.is_numeric_dtype.html)
 - [to_string](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_string.html#pandas.DataFrame.to_string)
+- [select_dtype](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.select_dtypes.html)
