@@ -45,7 +45,7 @@ print("Summary of each variable is written to 'summary.txt' file. \nHistograms a
 
 # TASK 3: Scatter plot of each pair of variables
 numeric_columns = data.select_dtypes(include=[np.number]).columns # selecting the numeric columns
-sns.pairplot(data, vars=numeric_columns, hue='species') 
+sns.pairplot(data, vars=numeric_columns, hue='species') # creating a scatter plot for each pair of variables
 plt.show()
 
 print("Scatter plot of each pair of variables is displayed.")
