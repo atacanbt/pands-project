@@ -3,6 +3,7 @@
 # author: Atacan Buyuktalas
 
 # Importing necessary libraries
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -40,7 +41,11 @@ with open('summary.txt', 'w') as f:
     for line in variable_summary:
         f.write(line + '\n')
 
-print("Summary of each variable is written to 'summary.txt' file. Histograms are saved as png files.")
+print("Summary of each variable is written to 'summary.txt' file. \nHistograms are saved as png files.")
 
 # TASK 3: Scatter plot of each pair of variables
-sns.pairplot(data, hue="speciess") # creating a pairplot with different colors for each species
+numeric_columns = data.select_dtypes(include=[np.number]).columns # selecting the numeric columns
+sns.pairplot(data, vars=numeric_columns, hue='species') 
+plt.show()
+
+print("Scatter plot of each pair of variables is displayed.")
