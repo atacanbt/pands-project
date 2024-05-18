@@ -36,7 +36,7 @@ for column in data.columns[:-1]: # the last column is not numeric so it is exclu
         plt.close() # closing the plot to avoid overlapping
 
 
-# Writing the summary of each variable to a text file
+# opening a file to write the summary of each variable
 with open('summary.txt', 'w') as f:
     for line in variable_summary:
         f.write(line + '\n')
