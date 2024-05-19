@@ -23,7 +23,7 @@ for column in data.columns[:-1]: # the last column is not numeric so it is exclu
         summary = data[column].describe()
         # Appending the summary of each variable to the list
         variable_summary.append(f"Summary for {column}:")
-        variable_summary.append(summary.to_string())
+        variable_summary.append(summary.to_string()) # converting the summary to string
         variable_summary.append("\n")
 
 # TASK 2: Creating histograms for each variable
@@ -49,3 +49,5 @@ sns.pairplot(data, vars=numeric_columns, hue='species') # creating a scatter plo
 plt.show()
 
 print("Scatter plot of each pair of variables is displayed.")
+
+# TASK 4: Calculating the correlation between variables
