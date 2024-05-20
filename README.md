@@ -35,14 +35,15 @@ by Atacan Buyuktalas
 ## References
 
 ### About the dataset:
-- https://en.wikipedia.org/wiki/Iris_flower_data_set
-- https://eminebozkus.medium.com/exploring-the-iris-flower-dataset-4e000bcc266c
+- [Iris flower data set](https://en.wikipedia.org/wiki/Iris_flower_data_set)
+- [Exploring the Iris flower dataset](https://eminebozkus.medium.com/exploring-the-iris-flower-dataset-4e000bcc266c)
+- 
 
-### analysis.py
+### Data Exploration  
 - [is_numeric_dtype](https://pandas.pydata.org/docs/reference/api/pandas.api.types.is_numeric_dtype.html)
 - [to_string](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_string.html#pandas.DataFrame.to_string)
 - [select_dtype](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.select_dtypes.html)
 - [sns.pairplot](https://seaborn.pydata.org/generated/seaborn.pairplot.html)
 - [sns.histplot](https://seaborn.pydata.org/generated/seaborn.histplot.html)
 - [api.types.is_numeric_dtype](https://pandas.pydata.org/docs/reference/api/pandas.api.types.is_numeric_dtype.html)
-- []
+- [sns.displot](https://seaborn.pydata.org/generated/seaborn.displot.html)
