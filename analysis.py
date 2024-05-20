@@ -49,5 +49,3 @@ sns.pairplot(data, vars=numeric_columns, hue='species') # creating a scatter plo
 plt.show()
 
 print("Scatter plot of each pair of variables is displayed.")
-
-# TASK 4: Calculating the correlation between variables
