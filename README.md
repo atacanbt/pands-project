@@ -37,7 +37,7 @@ by Atacan Buyuktalas
 ### About the dataset:
 - [Iris flower data set](https://en.wikipedia.org/wiki/Iris_flower_data_set)
 - [Exploring the Iris flower dataset](https://eminebozkus.medium.com/exploring-the-iris-flower-dataset-4e000bcc266c)
-- 
+
 
 ### Data Exploration  
 - [is_numeric_dtype](https://pandas.pydata.org/docs/reference/api/pandas.api.types.is_numeric_dtype.html)
@@ -47,3 +47,8 @@ by Atacan Buyuktalas
 - [sns.histplot](https://seaborn.pydata.org/generated/seaborn.histplot.html)
 - [api.types.is_numeric_dtype](https://pandas.pydata.org/docs/reference/api/pandas.api.types.is_numeric_dtype.html)
 - [sns.displot](https://seaborn.pydata.org/generated/seaborn.displot.html)
+- [Python Data Analysis with Iris Dataset | Data Science, plotting & graphing](https://www.youtube.com/watch?v=02BFXhPQWHQ&ab_channel=OggiAI-ArtificialIntelligenceToday)
+- [Exploratory Data Analysis with Pandas Python](https://www.youtube.com/watch?v=xi0vhXFPegw&list=PL1yosYOD_g5LvovLDHpLxiDOLq6Pvy6Pw&ab_channel=RobMulla)
+- [Data Science Example - Iris dataset](http://www.lac.inpe.br/~rafael.santos/Docs/CAP394/WholeStory-Iris.html)
+- [Seaborn Pairplot: A Guide](https://builtin.com/articles/seaborn-pairplot#:~:text=The%20Seaborn%20Pairplot%20allows%20us,make%20it%20easier%20to%20understand.)
+- [Seaborn Pairplot: Enhance Your Data Understanding with a Single Plot](https://towardsdatascience.com/seaborn-pairplot-enhance-your-data-understanding-with-a-single-plot-bf2f44524b22)
